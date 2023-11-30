@@ -1,0 +1,35 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+svg {
+    background-color: antiquewhite;
+}
+
+#canvas {
+    min-height: 600px;
+    min-width: 1200px;
+}
+
+g {
+    color: black;
+}
+
+#tooltip {
+    margin-top: 10px;
+    color: blue;
+    font-size: 25px;
+
+}
+#title {
+    font-size: 30px;
+    fill: dimgray;
+}
